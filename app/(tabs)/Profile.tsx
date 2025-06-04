@@ -44,14 +44,7 @@ export default function ProfileScreen() {
             keyboardType="email-address"
           />
 
-          <TextInput
-            style={styles.input}
-            placeholder="Enter your Phone number"
-            placeholderTextColor="#888"  // placeholder text color (gray)
-            value={email}
-            onChangeText={setEmail}
-            keyboardType="email-address"
-          />
+         
 
           {/* Button added here with pink text color */}
           <Button title="Enter" onPress={() => {}} color="0000" /> 
